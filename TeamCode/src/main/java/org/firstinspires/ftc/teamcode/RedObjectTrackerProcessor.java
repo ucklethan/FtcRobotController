@@ -3,9 +3,7 @@ package org.firstinspires.ftc.teamcode;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+
 import org.firstinspires.ftc.robotcore.internal.camera.calibration.CameraCalibration;
 import org.firstinspires.ftc.vision.VisionProcessor;
 import org.opencv.core.Core;
@@ -15,6 +13,10 @@ import org.opencv.core.Rect;
 import org.opencv.core.Scalar;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 /* JADX INFO: loaded from: classes8.dex */
 public class RedObjectTrackerProcessor implements VisionProcessor {
