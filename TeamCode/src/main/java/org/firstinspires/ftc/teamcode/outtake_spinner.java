@@ -7,12 +7,10 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 @TeleOp(name="Outtake Spinner", group="Linear OpMode")
 public class outtake_spinner extends LinearOpMode {
 
-    private DcMotor outtakeMotor = null;
-
     @Override
     public void runOpMode() {
         // Initialize the motor. "outtake_motor" must match the name in the robot configuration.
-        outtakeMotor = hardwareMap.get(DcMotor.class, "outtake_motor");
+        DcMotor outtakeMotor = hardwareMap.get(DcMotor.class, "outtake_motor");
 
         telemetry.addData("Status", "Initialized");
         telemetry.update();
